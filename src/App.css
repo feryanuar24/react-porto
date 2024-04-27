@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  display: flex;
+  padding: 20px 400px;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar div:hover {
+  color: #ffd700;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+}
+
+.name {
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  margin: 0 200px;
+  line-height: 1;
+}
+
+.desc {
+  font-size: large;
+  text-align: center;
+  padding: 10px 250px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedin {
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: #0077b5;
+  border: 0;
+  border-radius: 5px;
+}
+
+.linkedin:hover {
+  background-color: #00a0dc;
+  cursor: pointer;
+}
+
+.github {
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: #181717;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+}
+
+.github:hover {
+  background-color: #6e5494;
+  cursor: pointer;
 }
