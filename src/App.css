@@ -1,9 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: white;
   text-decoration: none;
 }
 
-.navbar {
+header {
+  height: 100vh;
+}
+
+.navbar-relative {
   display: flex;
   padding: 20px 400px;
   justify-content: space-between;
@@ -11,9 +19,31 @@ a {
   font-weight: bold;
 }
 
-.navbar div:hover {
+.navbar-relative a:hover {
   color: #ffd700;
   cursor: pointer;
+}
+
+.navbar-fixed {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  background-color: #181717;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  gap: 60px;
+}
+
+.navbar-fixed a:hover {
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.yellow {
+  color: #ffd700;
 }
 
 .hero {
@@ -21,7 +51,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 600px;
 }
 
 .name {
@@ -74,4 +104,31 @@ a {
 .github:hover {
   background-color: #6e5494;
   cursor: pointer;
+}
+
+.about {
+  height: 100vh;
+  background-color: #333333;
+  color: white;
+  padding: 0 200px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  grid-gap: 50px;
+  text-align: justify;
+}
+
+.avatar-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.avatar-container img {
+  width: 250%;
+  height: auto;
+  margin-left: -70%;
 }
