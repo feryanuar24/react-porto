@@ -27,5 +27,65 @@
       "link": "https://twitter.com/example_tweet_3",
       "date": "2024-04-26T15:45:00Z"
     }
+  ],
+  "educations": [
+    {
+      "name": "Universitas Singaperbangasa Karawang",
+      "detail": "Sistem Informasi",
+      "graduation": "2024",
+      "desc": "Universitas Singaperbangsa Karawang (Unsika) adalah perguruan tinggi negeri di Kabupaten Karawang, Jawa Barat. Unsika didirikan pada tanggal 2 Februari 1982 oleh Yayasan Pembina Perguruan Tinggi Pangkal Perjuangan. Perguruan tinggi ini diberi nama Raden Adipati Singaperbangsa, pendiri Kadipaten Karawang, dengan gelar Adipati Kertabumi III."
+    },
+    {
+      "name": "SMAN 7 Bogor",
+      "detail": "IPA",
+      "graduation": "2020",
+      "desc": "SMAN 7 Bogor adalah sekolah menengah atas negeri yang berada di Bogor, Jawa Barat. Sekolah ini berada di Jalan Palupuh, Bogor Utara. SMAN 7 Bogor memiliki 2 program studi, yaitu IPA dan IPS."
+    }
+  ],
+  "experiences": [
+    {
+      "name": "PDDkti - Kanal Pengetahuan Satu Dikti",
+      "position": "Frontend Developer",
+      "start": "Agustus 2023",
+      "end": "Desember 2023",
+      "desc": "PDDikti adalah sebuah platform yang menyediakan berbagai macam informasi seputar pendidikan tinggi di Indonesia. Sebagai Frontend Developer, saya bertanggung jawab dalam mengembangkan dan merancang antarmuka pengguna yang responsif dan menarik."
+    },
+    {
+      "name": "Ruanggru CAMP - Bootcamp",
+      "position": "Frontend Engginer",
+      "start": "Agustus 2022",
+      "end": "Desember 2022",
+      "desc": "Ruangguru CAMP adalah sebuah bootcamp yang menyediakan pelatihan intensif dalam bidang teknologi. Selama 4 bulan, saya mendalami berbagai teknologi web seperti HTML, CSS, dan JavaScript. Saya juga mempelajari berbagai framework frontend seperti React JS, Vue, dan Angular."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JS",
+      "progress": "85%"
+    },
+    {
+      "name": "HTML",
+      "progress": "90%"
+    },
+    {
+      "name": "CSS",
+      "progress": "90%"
+    },
+    {
+      "name": "React JS",
+      "progress": "85%"
+    },
+    {
+      "name": "Vue",
+      "progress": "80%"
+    },
+    {
+      "name": "Angular",
+      "progress": "80%"
+    },
+    {
+      "name": "Node JS",
+      "progress": "80%"
+    }
   ]
 }
