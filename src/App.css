@@ -222,6 +222,7 @@ label span {
 
 .resume {
   padding: 20px 200px;
+  height: 200vh;
 }
 
 .educations {
@@ -289,6 +290,7 @@ label span {
   height: 50px;
   background-color: #181717;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .name-bar div {
