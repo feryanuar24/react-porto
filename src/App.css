@@ -132,3 +132,90 @@ header {
   height: auto;
   margin-left: -70%;
 }
+
+.form {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 20px 150px;
+  background-color: #333333;
+  color: white;
+  height: 130vh;
+  gap: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.address-phone {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.label-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.label-textarea {
+  display: flex;
+  justify-content: space-between;
+}
+
+textarea {
+  width: 500px;
+  height: 300px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+label span {
+  color: #ffd700;
+}
+
+.btn-submit {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.btn-submit:hover {
+  background-color: #ffd700;
+  cursor: pointer;
+}
+
+.tweet-link {
+  color: skyblue;
+}
+
+.tweet-link:hover {
+  color: #00aced;
+  cursor: pointer;
+}
+
+.tweet-date {
+  opacity: 0.5;
+}

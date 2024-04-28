@@ -10,5 +10,22 @@
     "phone": "+6283813479771",
     "email": "feryanuar24@gmail.com"
   },
-  "cv": "https://drive.google.com/uc?export=download&id=1ZvK2XxyzuPYv0m1cJ5i70JJoEcf41eeX"
+  "cv": "https://drive.google.com/uc?export=download&id=1ZvK2XxyzuPYv0m1cJ5i70JJoEcf41eeX",
+  "tweets": [
+    {
+      "text": "Ini adalah contoh tweet pertama.",
+      "link": "https://twitter.com/example_tweet_1",
+      "date": "2024-04-28T08:00:00Z"
+    },
+    {
+      "text": "Ini adalah contoh tweet kedua.",
+      "link": "https://twitter.com/example_tweet_2",
+      "date": "2024-04-27T10:30:00Z"
+    },
+    {
+      "text": "Ini adalah contoh tweet ketiga.",
+      "link": "https://twitter.com/example_tweet_3",
+      "date": "2024-04-26T15:45:00Z"
+    }
+  ]
 }
