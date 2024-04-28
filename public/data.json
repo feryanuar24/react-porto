@@ -87,5 +87,12 @@
       "name": "Node JS",
       "progress": "80%"
     }
-  ]
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/feryanuar24",
+    "instagram": "https://www.instagram.com/feryanuar24",
+    "twitter": "https://www.twitter.com/feryanuar24",
+    "linkedin": "https://www.linkedin.com/in/fery-anuar",
+    "github": "https://www.github.com/feryanuar24"
+  }
 }
