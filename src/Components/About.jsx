@@ -22,13 +22,31 @@ const About = () => {
           <h2>About Me</h2>
           <p>{data.about}</p>
           <h2>Contact Details</h2>
-          <p>{data.contact && data.contact.address}</p>
-          <p>{data.contact && data.contact.phone}</p>
-          <p>{data.contact && data.contact.email}</p>
+          <a
+            href="https://maps.app.goo.gl/qNHHZBmoinwsx5Bi6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {data.contact && data.contact.address}
+          </a>
+          <a
+            href={`https://wa.me/${data.contact && data.contact.phone}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {data.contact && data.contact.phone}
+          </a>
+          <a
+            href="mailto:feryanuar24@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {data.contact && data.contact.email}
+          </a>
         </div>
         <div className="cv">
-          <a href="https://drive.google.com/uc?export=download&id=1ZvK2XxyzuPYv0m1cJ5i70JJoEcf41eeX">
-            <FaDownload /> Download Resume
+          <a href="https://drive.google.com/file/d/19wJOsg_2NRIQq1GeHhWuxfAFusDJRyyS/view?usp=sharing">
+            <FaDownload /> <p>Download Resume</p>
           </a>
         </div>
       </Fade>

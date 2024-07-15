@@ -118,9 +118,23 @@ const Form = () => {
           </div>
         </form>
         <div className="sub-form">
-          <h2 className="address-phone">Address and Phone</h2>
-          <p>{data.contact && data.contact.address}</p>
-          <p>{data.contact && data.contact.phone}</p>
+          <h2 className="address-phone-head">Address and Phone</h2>
+          <div className="address-phone-desc">
+            <a
+              href="https://maps.app.goo.gl/qNHHZBmoinwsx5Bi6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {data.contact && data.contact.address}
+            </a>
+            <a
+              href={`https://wa.me/${data.contact && data.contact.phone}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {data.contact && data.contact.phone}
+            </a>
+          </div>
           <h2>Lastest Tweets</h2>
           {data.contact &&
             data.tweets.map((tweet, index) => (

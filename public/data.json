@@ -1,61 +1,61 @@
 {
   "name": "Fery Anuar Ramadhan Putra",
-  "desc": "Saya adalah seorang Software Engineer dengan pengalaman selama 1 tahun di industri Web Developer. Saya memiliki keterampilan Frontend Engineering yang kuat yang saya peroleh melalui pelatihan selama 4 bulan di Ruangguru CAMP.",
+  "desc": "Frontend Engineer dengan 2 tahun pengalaman, ahli dalam JavaScript dan React.",
   "linkedin": "https://www.linkedin.com/in/fery-anuar",
   "github": "https://github.com/feryanuar24",
   "img": "https://kanalpengetahuansatu.dikti.go.id/static/media/Fery.9b1c69ef7fcb850e5ae8.jpg",
-  "about": "Saya adalah seorang frontend engineer dengan pengalaman yang kuat dalam pengembangan aplikasi web modern. Dengan latar belakang dalam teknologi web seperti HTML, CSS, dan JavaScript, saya memiliki kemampuan untuk merancang dan mengimplementasikan antarmuka pengguna yang menarik dan responsif. Saya juga ahli dalam menggunakan berbagai framework frontend. Dengan kreativitas dan ketelitian, saya berkomitmen untuk memberikan pengalaman pengguna yang optimal dan solusi teknis yang berkualitas tinggi dalam setiap proyek yang saya kerjakan.",
+  "about": "Frontend Engineer with 2 years of experience in creating responsive web applications, including developing Helpdesk PDDikti for 2000+ users with AI-driven features, revamping PDDikti Version 2 with modern design and security, and designing LPM Unsika News Portal, increasing visits by 1000+ per month, proficient in JavaScript, React, Scrum, and a Ruangguru CAMP graduate with a 4.0 GPA, seeking new challenging projects.",
   "contact": {
-    "address": "Jl.Cipinang Gading, Kel. Ranggamekar, Kec. Bogor Selatan, Kota Bogor",
+    "address": "Jl. Cipinang Gading, Kel. Ranggamekar, Kec. Bogor Selatan, Kota Bogor",
     "phone": "+6283813479771",
     "email": "feryanuar24@gmail.com"
   },
   "cv": "https://drive.google.com/uc?export=download&id=1ZvK2XxyzuPYv0m1cJ5i70JJoEcf41eeX",
   "tweets": [
     {
-      "text": "Ini adalah contoh tweet pertama.",
+      "text": "Check out our latest updates! Exciting developments are happening at our company.",
       "link": "https://twitter.com/example_tweet_1",
       "date": "2024-04-28T08:00:00Z"
     },
     {
-      "text": "Ini adalah contoh tweet kedua.",
+      "text": "Join us as we explore new trends and innovations in the tech world.",
       "link": "https://twitter.com/example_tweet_2",
       "date": "2024-04-27T10:30:00Z"
     },
     {
-      "text": "Ini adalah contoh tweet ketiga.",
+      "text": "Discover how we're making a difference with our community outreach programs.",
       "link": "https://twitter.com/example_tweet_3",
       "date": "2024-04-26T15:45:00Z"
     }
   ],
   "educations": [
     {
-      "name": "Universitas Singaperbangasa Karawang",
-      "detail": "Sistem Informasi",
-      "graduation": "2024",
-      "desc": "Universitas Singaperbangsa Karawang (Unsika) adalah perguruan tinggi negeri di Kabupaten Karawang, Jawa Barat. Unsika didirikan pada tanggal 2 Februari 1982 oleh Yayasan Pembina Perguruan Tinggi Pangkal Perjuangan. Perguruan tinggi ini diberi nama Raden Adipati Singaperbangsa, pendiri Kadipaten Karawang, dengan gelar Adipati Kertabumi III."
+      "name": "University of Singaperbangasa Karawang",
+      "detail": "Information System (GPA 3,88)",
+      "graduation": "May 2024",
+      "desc": "Singaperbangsa University of Karawang (UNSIKA), established in 1982, is a state university committed to producing superior and competitive graduates in various regions. UNSIKA offers a variety of study programs at the diploma, bachelor's and master's levels, focusing on fields that are relevant to the needs of industry and society. This is proven by the achievements of its graduates who are accepted to work in various well-known companies in Indonesia and abroad."
     },
     {
       "name": "SMAN 7 Bogor",
-      "detail": "IPA",
+      "detail": "MIPA",
       "graduation": "2020",
-      "desc": "SMAN 7 Bogor adalah sekolah menengah atas negeri yang berada di Bogor, Jawa Barat. Sekolah ini berada di Jalan Palupuh, Bogor Utara. SMAN 7 Bogor memiliki 2 program studi, yaitu IPA dan IPS."
+      "desc": "SMAN 7 Bogor is a public senior high school located in Bogor, West Java. The school is located at Jalan Palupuh, North Bogor. SMAN 7 Bogor has 2 study programs, namely Science and Social Studies."
     }
   ],
   "experiences": [
     {
-      "name": "PDDkti - Kanal Pengetahuan Satu Dikti",
+      "name": "PDDikti - (Helpdesk & PDDikti V.2)",
       "position": "Frontend Developer",
-      "start": "Agustus 2023",
-      "end": "Desember 2023",
-      "desc": "PDDikti adalah sebuah platform yang menyediakan berbagai macam informasi seputar pendidikan tinggi di Indonesia. Sebagai Frontend Developer, saya bertanggung jawab dalam mengembangkan dan merancang antarmuka pengguna yang responsif dan menarik."
+      "start": "August 2023",
+      "end": "December 2023",
+      "desc": "PDDikti is Indonesia's Higher Education Database, providing real-time and accurate information and statistics about universities across the country. During my internship at PDDikti, I had the opportunity to contribute to the development of the helpdesk website, enhancing support for handling data reporting issues. Additionally, I played a role in the redesign and structuring of PDDikti Version 2, ensuring a more user-friendly interface and systematic data presentation."
     },
     {
       "name": "Ruanggru CAMP - Bootcamp",
-      "position": "Frontend Engginer",
-      "start": "Agustus 2022",
-      "end": "Desember 2022",
-      "desc": "Ruangguru CAMP adalah sebuah bootcamp yang menyediakan pelatihan intensif dalam bidang teknologi. Selama 4 bulan, saya mendalami berbagai teknologi web seperti HTML, CSS, dan JavaScript. Saya juga mempelajari berbagai framework frontend seperti React JS, Vue, dan Angular."
+      "position": "Frontend Engineer",
+      "start": "August 2022",
+      "end": "December 2022",
+      "desc": "Ruangguru CAMP is a bootcamp that provides intensive training in technology. For 4 months, I explored various web technologies such as HTML, CSS, and JavaScript. I also learned various frontend frameworks such as React JS, Vue, and Angular."
     }
   ],
   "skills": [

@@ -82,13 +82,13 @@ const Header = () => {
             <button className="linkedin">
               <a href={data.linkedin} target="_blank" rel="noreferrer">
                 <FaLinkedin />
-                Linkedin
+                <p>Linkedin</p>
               </a>
             </button>
             <button className="github">
               <a href={data.github} target="_blank" rel="noreferrer">
                 <FaGithub />
-                Github
+                <p>Github</p>
               </a>
             </button>
           </div>

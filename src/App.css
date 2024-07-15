@@ -1,3 +1,4 @@
+/* Header */
 html {
   scroll-behavior: smooth;
 }
@@ -19,6 +20,10 @@ header {
   font-weight: bold;
 }
 
+.navbar-relative a {
+  transition: all 300ms ease-in-out 150ms;
+}
+
 .navbar-relative a:hover {
   color: #ffd700;
   cursor: pointer;
@@ -35,6 +40,10 @@ header {
   z-index: 1;
   width: 100%;
   gap: 60px;
+}
+
+.navbar-fixed a {
+  transition: all 300ms ease-in-out 150ms;
 }
 
 .navbar-fixed a:hover {
@@ -84,11 +93,19 @@ header {
   background-color: #0077b5;
   border: 0;
   border-radius: 5px;
+  transition: all 300ms ease-in-out 150ms;
+  padding: 0px 40px;
 }
 
 .linkedin:hover {
   background-color: #00a0dc;
   cursor: pointer;
+}
+
+.linkedin a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .github {
@@ -99,6 +116,8 @@ header {
   font-weight: bold;
   border: 0;
   border-radius: 5px;
+  transition: all 300ms ease-in-out 150ms;
+  padding: 0px 40px;
 }
 
 .github:hover {
@@ -106,6 +125,13 @@ header {
   cursor: pointer;
 }
 
+.github a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* About */
 .about {
   height: 100vh;
   background-color: #333333;
@@ -133,6 +159,32 @@ header {
   margin-left: -70%;
 }
 
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-me a {
+  transition: all 300ms ease-in-out 150ms;
+}
+
+.about-me a:hover {
+  color: #ffd700;
+}
+
+.cv a {
+  transition: all 300ms ease-in-out 150ms;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cv a:hover {
+  color: #ffd700;
+}
+
+/* Form */
 .form {
   display: grid;
   grid-template-columns: 4fr 1fr;
@@ -149,9 +201,23 @@ form {
   gap: 20px;
 }
 
-.address-phone {
+.address-phone-head {
   margin-top: 0;
   padding-top: 0;
+}
+
+.address-phone-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.address-phone-desc a {
+  transition: all 300ms ease-in-out 150ms;
+}
+
+.address-phone-desc a:hover {
+  color: #ffd700;
 }
 
 label {
@@ -200,6 +266,7 @@ label span {
   border-radius: 5px;
   font-weight: bold;
   margin-top: 50px;
+  transition: all 300ms ease-in-out 150ms;
 }
 
 .btn-submit:hover {
@@ -220,6 +287,7 @@ label span {
   opacity: 0.5;
 }
 
+/* Resume */
 .resume {
   padding: 20px 200px;
   height: 200vh;
@@ -336,6 +404,7 @@ label span {
   font-size: small;
 }
 
+/* Footer */
 .footer {
   background-color: #181717;
   color: #333333;
@@ -354,6 +423,7 @@ label span {
 
 .logo {
   font-size: xx-large;
+  transition: all 300ms ease-in-out 150ms;
 }
 
 .logo:hover {
@@ -377,6 +447,7 @@ label span {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 300ms ease-in-out 150ms;
 }
 
 .up-container:hover {
